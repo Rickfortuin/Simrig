@@ -8,7 +8,7 @@ html, body{
 	position: relative;
 	overflow: auto;
   margin: auto;
-  width: 100%;
+  width: device-width;
   height: device-height;
   color: #6F4E37;
 }
@@ -58,11 +58,12 @@ div.knop1{
   
 }
 div.navbar{
-  background-color: transparent;
+  background-color: black;
   font-size: 30px ;
   max-height: 10%;
   width: 100%;
   display: block; 
+
   img{
     height: 60px;
     object-fit: contain;

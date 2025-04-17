@@ -6,7 +6,7 @@ import useLocalStorage from 'use-local-storage';
 
 function Console() {
     const [Console,setSelectedConsole] = useState("");
-    const [count2, setcount] = useLocalStorage("count",0);
+    const [count2, setcount] = useState(0);
     
     function countUp() {
         setcount(count2 + 1);

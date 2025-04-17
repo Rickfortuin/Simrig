@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html, body{
+  background-image: url("./images/2.png");
+  background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: auto;
+  margin: auto;
+  width: 100%;
+  height: device-height;
+  color: #6F4E37;
+}
+
+main{
+  flex-direction: cen;
+  h1{
+    font-family: "Bitter";
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 60px;
+    margin-top: 7%;
+    z-index: 3;
+    text-align: center;
+    
+  }
+  
+}
+main{
+  height: 100%;
+  z-index: 1;
+  
+}
+hr.lijn1{
+  border-top: 5px solid black;
+  color: black;
+  margin-top: 5%;
+  border-bottom:10px solid darkgrey;
+}
+div.knop1{
+  margin-left: 42.5%;
+  margin-top: 27%;
+  font-family: "Bitter";
+  width: 15% ;
+  color: white;
+  position: relative;
+  place-content: left;
+  font-size: 30px;
+  text-align: center;
+  background-color: black;
+  padding: 20px 20px;  
+  border-radius: 50px;
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  
+}
+div.navbar{
+  background-color: transparent;
+  font-size: 30px ;
+  max-height: 10%;
+  width: 100%;
+  display: block; 
+  img{
+    height: 60px;
+    object-fit: contain;
+    float: left;
+    object-position: 5%;
+    padding: 10px;
+    margin-top: 0%;
+  }
+  a.nav-option{
+    float: right;
+    font-family: "Bitter";
+    text-decoration: underline;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+    padding: 20px 20px;
+    color: white;
+    outline: black;
+  }
+  a:hover{
+    color: red;
+  }
+}
+::selection{
+  background-color: darkgrey;
+}
+nav{
+  background-color: transparent;
+  font-size: 30px ;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  
+  img{
+    height: 60px;
+    object-fit: contain;
+    float: left;
+    object-position: 5%;
+    padding: 20px;
+    margin-top: 0%;
+  }
+  a.nav-option{
+    font-family: "Bitter";
+    text-decoration: underline;
+    background-color: transparent;
+    padding: 20px 20px;
+    color: white;
+    align-items: flex-end;
+    
+  }
+  a:hover{
+    color: red;
+  }
+}
+nav.hover{
+  background-color: darkgrey;
+}
+section.progress{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Bitter";
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background-color: black;
+  padding: 20px 20px;
+  border-radius: 50px;
+  align-items: space-evenly;
+  a{
+    margin: 10%;
+    color: white;
+    text-decoration: underline;
+  }
+  a.stuur{
+    color: red;
+  }
+  a.stoel{
+    color: rgb(97, 95, 95)
+  }
+}
+
+h1.PlugPlay{
+  font-family: "Bitter";
+  color: white;
+  border-top: 100px darkgray;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+  font-size: 60px;
+  margin-top: 5%;
+  z-index: 3;
+  text-align: center;
+  border-top: 10px black;
+}
+main{
+  min-height: auto;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: space-evenly;
+  height: 100%;
+}
+div.knoppen{
+  margin-top: 7%;
+  width: 100%;
+  min-height: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+  display: inline-flex;
+  font-family: "Bitter";
+  color: white;
+  font-size: 60px;
+  
+  border-radius: 50px;
+  border: none;
+  
+}
+div.Quicklink{
+  background: rgb(128,128,128,0.7);
+  margin : 3%;
+  button{
+    font-family: "Bitter";
+    display: inline-block;
+    width: 20%;
+    height: 40px;
+  }
+}
+div.container{
+  
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+  grid-template-rows: repeat(3, auto);  /* 3 rows with automatic height */
+  gap:5%; /* Optional: Adds spacing between grid items */
+  margin-bottom: 15%;
+  
+}
+button.playstation{
+  border-radius: 10%;
+  background-color: #024fa6;
+  width: 80%;
+  height: 80%;
+  font-size: 4rem;
+  justify-content: center;
+  text-align: center;
+  &:active {
+    background-color: #003f79;
+  }
+  &:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+}
+button.xbox{
+  border-radius: 10%;
+  background-color: #0e7a0d;
+  font-size: 6rem;
+  width: 80%;
+  height: 80%;
+  
+  &:active {
+    background-color: #0a4f0a;
+  }
+  &:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+}
+button.pc{
+  border-radius: 10%;
+  background-color: red;
+  width: 80%;
+  height: 80%;
+  font-size: 8rem;
+  
+  &:active {
+    background-color: #8b0000;
+  }
+  &:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+}
+div{
+  color: white;
+  text-align: center;
+  width: 100%;
+  border-radius: 50px;
+  font-family: "Bitter";
+  max-width: 100%;
+  img{
+    margin-top: 10%;
+    width: 75%;
+  }
+  a{
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-flexbox ;
+    border-radius: 50px;
+    min-width: 20%;
+    min-height: 40%;
+    
+  }
+}
+div.beginnerrig{
+  margin-left: 20%;
+  margin-top: 5%;
+  float: left;
+  
+}
+div.prorig{
+  margin-left: 10%;
+  margin-top: 5%;
+  float: left;
+}
+hr{
+  margin-top: 5%;
+}
+header{
+  margin-top: 10%;
+  text-align: center;
+  font-family:"Bitter"; 
+  font-style: italic;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 60px;
+}
+
+footer{
+  margin-top: 10%;
+  background-color: rgb(128,128,128,0.8);
+}
+section.artikelen{
+  background: rgb(128,128,128,0.8);
+  display: block;
+}
+
+button:focus{
+  background-color: red;
+}
+div.buttons {
+  margin-top: 5%;
+  display: grid;
+  justify-content: center; /* Centers the grid itself horizontally */
+  align-items: center; /* Centers the grid items vertically */
+  justify-items: center; /* Centers the content of each grid item horizontally */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+  height: 40vh; /* 40% of the viewport height */
+  gap: 20px; /* Adds spacing between grid items */
+}
+div.lijst{
+  background-color: rgb(128,128,128,0.7);
+  display: grid;
+  columns: 1;
+  justify-content: center; /* Centers the grid itself horizontally */
+  align-items: center; /* Centers the grid items vertically */
+  justify-items: center;
+  margin-bottom: 10%;
+  height: 100%; /* Centers the content of each grid item horizontally */
+}
+div.list{
+  display: flexbox;
+  justify-content: center; /* Centers the grid itself horizontally */
+  align-items: center; /* Centers the grid items vertically */
+  justify-items: center; /* Centers the content of each grid item horizontally */
+  :Quicklink{ 
+    display: inline-block;
+    width: 20%;
+    height: 40px;
+  }
+}
+div.onderdeel{
+  text-align: left;
+  display: grid;
+  columns: 3/3;
+  background: rgba(48, 47, 47, 0.7);
+  width: 70%; /* Maak de breedte kleiner */
+  font-size: 1.5rem;
+  max-height: 40%;
+  justify-content: left; /* Centers the grid itself horizontally */
+  align-items: left; /* Centers the grid items vertically */
+  justify-items: center; /* Centers the content of each grid item horizontally */
+  margin-top: 5%;
+  border-radius: 10px; /* Optioneel: afgeronde hoeken */
+  margin-left: 15%;
+  column-gap: 20px; /* Ruimte tussen de kolommen */
+  h2{
+    height: 10%;
+    width: 100%;
+    grid-column: 2;
+  }
+  h3{
+    height: 10%;
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 0px;
+  }
+  p{
+    height: 20%;
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 0px;
+  }
+  img{
+    margin-top: 0;
+    grid-column: 1; 
+    grid-row: 1 / span 2;
+    
+    width: 60%;
+  }
+  a{
+    margin-top: 30%;
+    grid-row: 1 / span 1;
+    grid-column: 3;
+    font-size: 2rem;
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5%;
+  }
+}
+button.Volgende{
+  margin-top: 3%;
+  margin-left: 40%;
+}
+button.Terug{
+  margin-top: 3%;
+  margin-right: 40%;
+}
+h1.builderkop{
+  text-shadow: #000 1px 0, #000 0 1px, #000 -2px 0, #000 0 -1px;
+}

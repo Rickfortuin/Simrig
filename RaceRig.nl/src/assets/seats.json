@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Playseat Trophy Logitech G Edition",
+        "price": "508",
+        "description":[],
+        "advantages": [
+            "De stevige constructie maakt deze racing cockpit geschikt voor de sterkste force feedback.",
+            "Verstel de stoel naar wens",
+            "zodat je altijd comfortabel en ergonomisch zit."
+        ],
+        "disadvantages": [
+            "Je vouwt deze stoel niet op wanneer je klaar bent met racen",
+            "waardoor je hem minder makkelijk opbergt.",
+            "Deze stoel ondersteunt gamers met een maximaal gewicht van 150 kilogram."
+        ],
+        "imagehref": "2098314.avif",
+        "href": [
+            ""
+        ]
+    },
+    {
+        "title": "Playseat Challenge ActiFit Zwart",
+        "price": "220",
+        "description":[],
+        "advantages": [
+            "Je vouwt deze stoel helemaal op",
+            "waardoor hij weinig ruimte inneemt als je hem opbergt.",
+            "Verstel de stoel naar wens",
+            "zodat je altijd comfortabel en ergonomisch zit.",
+            "Het ActiFit materiaal is duurzaam en ademt",
+            "voor meer comfort tijdens je race sessies."
+        ],
+        "disadvantages": [
+            "Deze racestoel is minder geschikt voor sterke force feedback",
+            "omdat het een minder stevige constructie is."
+        ],
+        "imagehref": "2098326.avif",
+        "href": [
+            ""
+        ]
+    },
+    {
+        "title": "Playseat Evolution Alcantara",
+        "price": "298",
+        "description":[],
+        "advantages": [
+            "Je klapt de rugleuning in",
+            "waardoor je de stoel makkelijker opbergt wanneer je klaar bent met racen.",
+            "Verstel de stoel naar wens",
+            "zodat je altijd comfortabel en ergonomisch zit.",
+            "De Alcantara vinyl lederen bekleding zorgt voor meer comfort tijdens race sessies."
+        ],
+        "disadvantages": [
+            "Deze racestoel is minder geschikt voor sterke force feedback",
+            "omdat het een minder stevige constructie is.",
+            "Deze stoel ondersteunt gamers met een maximaal gewicht van 120 kilogram."
+        ],
+        "imagehref": "gamerrig.png",
+        "href": [
+            ""
+        ]
+    },
+    {
+        "title": "Playseat Formula Instinct F1 Edition",
+        "price": "574",
+        "description":[],
+        "advantages": [
+            "Door het speciale ontwerp speel je F1 games in stijl en zijn je races realistischer.",
+            "Met de schuimen rugkussens race je realistisch en ergonomisch",
+            "waardoor je urenlang doorracet.",
+            "Je klapt de rugleuning in",
+            "waardoor je de stoel makkelijker opbergt wanneer je klaar bent met racen."
+        ],
+        "disadvantages": [
+            "Deze stoel ondersteunt gamers met een maximaal gewicht van 163 kilogram.",
+            "De stoel is niet verstelbaar",
+            "waardoor je hem niet naar voren of achteren schuift."
+        ],
+        "imagehref": "2107508.avif",
+        "href": [
+            ""
+        ]
+    },
+    {
+        "title": "Playseat Challenge X - Logitech G Edition",
+        "price": "255",
+        "description":[],
+        "advantages": [
+            "Je vouwt deze stoel helemaal op",
+            "waardoor hij weinig ruimte inneemt als je hem opbergt.",
+            "Verstel de stoel naar wens",
+            "zodat je altijd comfortabel en ergonomisch zit.",
+            "Monteer je pedalen gemakkelijk op de pedaalplaat van de stoel."
+        ],
+        "disadvantages": [
+            "Deze racestoel is minder geschikt voor sterke force feedback",
+            "omdat het een minder stevige constructie is.",
+            "Deze stoel ondersteunt gamers met een maximaal gewicht van 120 kilogram."
+        ],
+        "imagehref": "2098316.avif",
+        "href": [
+            ""
+        ]
+
+    }
+]

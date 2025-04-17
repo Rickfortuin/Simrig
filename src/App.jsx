@@ -5,21 +5,36 @@ import Titlebar from './Titlebar.jsx'
 import Quicklink from './Quicklink.jsx'
 import Footer from './Footer.jsx'
 import Navbar from './Navbar.jsx'
+import Console from './Console.jsx'
+import useLocalStorage from 'use-local-storage'
 
 function App() {
-
+  const [count, setCount] = useState(0)
+  function builder(){
+    setCount(1)
+  }
   return (
     <>
-      <Navbar />
-      <Titlebar />
-      <h1 className="builderkop">Plug and Play Simrigs</h1>
-      <h2 className="builderkop">Aangeraden combinaties:</h2>
-      <div className='container'>
-        <Quicklink name="Voor de beginner" price="550" paragraph="Deze combinatie is perfect voor de beginnende simracer, met een opklapbare stoel, instapmodel (modulair) Moza-stuur en pendalen kan jij je nieuwe hobby starten!" />
-        <Quicklink name="Voor de enthousiast" price="1000" paragraph="Deze combinatie is perfect voor de enthousiastelling, met een sterker Fanatec-stuur en pendalen voor een nog realistischere ervaring." />
-        <Quicklink name="Voor de professional" price="1000" paragraph="Dit is een simrig"  />
-      </div>
-      <Footer />
+      <Navbar setCount={setCount} />
+      
+      {count === 0 && (
+        <>
+        <Titlebar />
+        <button className='builder' onClick ={() => {builder()}}>Start met bouwen &#128296;</button>
+        <Footer />
+        </>
+      )}
+
+      {count === 1 && (
+        <>
+        <Console/>
+        </>
+      )}
+
+      {count === 2 && (
+        <>
+        </>
+      )}
     </>
   )
 }

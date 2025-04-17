@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-html, body{
+html, body {
   background-image: url("./images/2.png");
   background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	overflow: auto;
-  margin: auto;
-  width: device-width;
-  height: device-height;
+  background-attachment: fixed;
+  position: relative;
+  overflow: auto;
+  margin: 0; /* Verwijder standaard marges */
+  width: 100vw; /* Maak de breedte gelijk aan de viewport breedte */
+   /* Maak de hoogte gelijk aan de viewport hoogte */
   color: #6F4E37;
 }
 
@@ -38,11 +38,9 @@ hr.lijn1{
   margin-top: 5%;
   border-bottom:10px solid darkgrey;
 }
-div.knop1{
-  margin-left: 42.5%;
-  margin-top: 27%;
+button.builder{
+  margin-top: 20%;
   font-family: "Bitter";
-  width: 15% ;
   color: white;
   position: relative;
   place-content: left;
@@ -51,10 +49,6 @@ div.knop1{
   background-color: black;
   padding: 20px 20px;  
   border-radius: 50px;
-  a{
-    color: white;
-    text-decoration: none;
-  }
   
 }
 div.navbar{
@@ -62,7 +56,8 @@ div.navbar{
   font-size: 30px ;
   max-height: 10%;
   width: 100%;
-  display: block; 
+  display: block;
+  margin: 0%; 
 
   img{
     height: 60px;
@@ -70,9 +65,9 @@ div.navbar{
     float: left;
     object-position: 5%;
     padding: 10px;
-    margin-top: 0%;
+    margin-top: 1%;
   }
-  a.nav-option{
+  button.nav-option{
     float: right;
     font-family: "Bitter";
     text-decoration: underline;
@@ -82,7 +77,7 @@ div.navbar{
     color: white;
     outline: black;
   }
-  a:hover{
+  button:hover{
     color: red;
   }
 }
@@ -104,7 +99,7 @@ nav{
     padding: 20px;
     margin-top: 0%;
   }
-  a.nav-option{
+  button.nav-option{
     font-family: "Bitter";
     text-decoration: underline;
     background-color: transparent;
@@ -113,7 +108,7 @@ nav{
     align-items: flex-end;
     
   }
-  a:hover{
+  button:hover{
     color: red;
   }
 }
@@ -243,13 +238,17 @@ button.pc{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 }
+div.root{
+  width: 85%;
+}
 div{
   color: white;
   text-align: center;
-  width: 100%;
+  width: 90%;
   border-radius: 50px;
   font-family: "Bitter";
   max-width: 100%;
+  margin: 5%;
   img{
     margin-top: 10%;
     width: 75%;
@@ -265,6 +264,7 @@ div{
     
   }
 }
+
 div.beginnerrig{
   margin-left: 20%;
   margin-top: 5%;

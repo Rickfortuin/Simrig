@@ -6,9 +6,6 @@ function Titlebar(){
     return (
       <>
         <h1 className="builderkop">Bouw je eigen Race Simulator</h1>
-        <div className="knop1">
-          <a id="Bouw" href="./builder.html">Bouwen</a>
-        </div>
       </>
     )
   }

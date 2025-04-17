@@ -3,16 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function Navbar(){
+function Navbar({ setCount }){
     return (
     <>
       <div className="navbar">
         <nav>
             <img src={"./images/Simrig-logo.jpg"} />
-            <a class="nav-option" id="home" href="./index.html">Home</a>
-            <a class="nav-option" id="builder" href="./builder.html">Builder</a>
-            <a class="nav-option" id="products" href="./products.html">Products</a>
-            <a class="nav-option" id="List" href="./list.html">Saved-Lists</a>
+            <button className="nav-option" id="home" onClick={() => setCount(0)}>Home</button>
+            <button className="nav-option" id="builder" onClick={() => setCount(1)}>Builder</button>
+            <button className="nav-option" id="products" onClick={() => setCount(0)}>Products</button>
+            <button className="nav-option" id="list" onClick={() => setCount(0)}>Saved-Lists</button>
             
             
             

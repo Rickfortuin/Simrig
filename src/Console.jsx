@@ -6,17 +6,17 @@ import useLocalStorage from 'use-local-storage';
 
 function Console() {
     const [Console,setSelectedConsole] = useState("");
-    const [count, setcount] = useLocalStorage("count",0);
+    const [count2, setcount] = useLocalStorage("count",0);
     
     function countUp() {
-        setcount(count + 1);
+        setcount(count2 + 1);
     }
     function countDown() {
-        setcount(count - 1);
+        setcount(count2 - 1);
     }
     return (
         <>
-            { count === 0 &&(
+            { count2 === 0 &&(
                 <>
                     <h1>Kies je console</h1>
                     <div className='buttons'>
@@ -35,7 +35,7 @@ function Console() {
                     </div>
                 </>
             )}
-            {count === 1 &&(
+            {count2 === 1 &&(
                 <>
                     <button className = "Terug" onClick={countDown}>&lArr; Terug</button>
                     <button className = "Volgende"onClick={countUp}>Volgende &rArr;</button>
@@ -44,14 +44,14 @@ function Console() {
                     </div>
                 </>
             )}
-            {count ===2 && (
+            {count2 ===2 && (
                 <>
                     <button className = "Terug" onClick={countDown}>&lArr; Terug</button>
                     <button className = "Volgende"onClick={countUp}>Volgende &rArr;</button>
                     <Seats  />
 
                 </>)}
-            {count === 3 && (
+            {count2 === 3 && (
                 <>
                 <button onClick={countDown}>Terug naar builder</button>
                 <h1>Je hebt gekozen voor &#128722;</h1>

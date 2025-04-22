@@ -3,7 +3,7 @@ import "./App.css";
 import seats from "./assets/seats.json";
 import Quicklink from "./Quicklink";
 
-const Seats = ({ name }) => {
+const Seats = ({ name, page }) => {
     const [filteredData, setFilteredData] = useState([]);
 
     // Filter based on the provided name
@@ -28,7 +28,8 @@ const Seats = ({ name }) => {
             <h1 className="builderkop">Kies je stoel</h1>
             <div className="container">
             {filteredData.map((item) => (
-                <Quicklink key={item.title} name={item.title} price={item.price} href= {item.href}paragraph="" type="seat" image= {item.imagehref} />
+                <Quicklink key={item.title} name={item.title} price={item.price} href= {item.href}paragraph="" type="seat" image= {item.imagehref} page = {page
+                }/>
             ))}
             </div>
         </>

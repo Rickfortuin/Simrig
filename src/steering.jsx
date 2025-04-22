@@ -3,7 +3,7 @@ import "./App.css";
 import steeringData from "./assets/steering.json";
 import Quicklink from "./Quicklink";
 
-const Steering = ({ name }) => {
+const Steering = ({ name, page }) => {
   const [filteredData, setFilteredData] = useState([]);
 
   // Filter based on the provided name
@@ -34,7 +34,7 @@ const Steering = ({ name }) => {
         <h1 className="builderkop">Kies je stuur</h1>
         <div className="container">
       {filteredData.map((item) => (
-        <Quicklink key={item.title} name={item.title} price={item.price} href= {item.href}paragraph="" type="wheel" image= {item.imagehref} />
+        <Quicklink key={item.title} name={item.title} price={item.price} href= {item.href}paragraph="" type="wheel" image= {item.imagehref} page = {page}/>
       ))}
         </div>
     </>

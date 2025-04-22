@@ -45,7 +45,7 @@ function Console({page}) {
                     <button className = "Terug" onClick={countDown}>&lArr; Terug</button>
                     <button className = "Volgende"onClick={countUp}>Volgende &rArr;</button>
                     <div className='producten'>
-                        <Steering name={Console} />
+                        <Steering name={Console} page = {setcount}/>
                     </div>
                 </>
             )}
@@ -53,7 +53,7 @@ function Console({page}) {
                 <>
                     <button className = "Terug" onClick={countDown}>&lArr; Terug</button>
                     <button className = "Volgende"onClick={countUp}>Volgende &rArr;</button>
-                    <Seats  />
+                    <Seats  name = {Console} page = {setcount}/>
 
                 </>)}
             {count2 === 3 && (

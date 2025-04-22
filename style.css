@@ -177,7 +177,8 @@ div.knoppen{
 }
 div.Quicklink{
   background: rgb(128,128,128,0.7);
-  margin : 3%;
+  width: auto;
+  margin: 0%;
   button{
     font-family: "Bitter";
     display: inline-block;
@@ -196,13 +197,15 @@ div.container{
   
 }
 button.playstation{
+  display: flex;
   border-radius: 10%;
   background-color: #024fa6;
   width: 80%;
   height: 80%;
   font-size: 4rem;
-  justify-content: center;
-  text-align: center;
+  justify-content: center; /* Horizontaal centreren */
+  align-items: center; /* Verticaal centreren */
+  text-align: center; /* Zorg ervoor dat de tekst gecentreerd blijft */
   &:active {
     background-color: #003f79;
   }
@@ -211,11 +214,15 @@ button.playstation{
   }
 }
 button.xbox{
+  display: flex;
   border-radius: 10%;
   background-color: #0e7a0d;
   font-size: 6rem;
   width: 80%;
   height: 80%;
+  justify-content: center; /* Horizontaal centreren */
+  align-items: center; /* Verticaal centreren */
+  text-align: center; /* Zorg ervoor dat de tekst gecentreerd blijft */
   
   &:active {
     background-color: #0a4f0a;
@@ -225,11 +232,15 @@ button.xbox{
   }
 }
 button.pc{
+  display: flex;
   border-radius: 10%;
   background-color: red;
   width: 80%;
   height: 80%;
   font-size: 8rem;
+  justify-content: center; /* Horizontaal centreren */
+  align-items: center; /* Verticaal centreren */
+  text-align: center; /* Zorg ervoor dat de tekst gecentreerd blijft */
   
   &:active {
     background-color: #8b0000;
@@ -333,9 +344,9 @@ div.list{
   }
 }
 div.onderdeel{
-  text-align: left;
+  
   display: grid;
-  columns: 3/3;
+  
   background: rgba(48, 47, 47, 0.7);
   width: 70%; /* Maak de breedte kleiner */
   font-size: 1.5rem;

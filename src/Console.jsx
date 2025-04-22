@@ -4,9 +4,13 @@ import Steering from './steering.jsx';
 import Seats from './seats.jsx';
 import useLocalStorage from 'use-local-storage';
 
-function Console() {
+function Console({page}) {
     const [Console,setSelectedConsole] = useState("");
-    const [count2, setcount] = useState(0);
+    const [count2, setcount] = useState(page);
+
+    useEffect(() => {
+        setcount(page); // Update 'count2' wanneer 'page' verandert
+    }, [page]);
     
     function countUp() {
         setcount(count2 + 1);
@@ -16,6 +20,7 @@ function Console() {
     }
     return (
         <>
+       
             { count2 === 0 &&(
                 <>
                     <h1 className='builderkop'>Kies je console</h1>
@@ -95,6 +100,6 @@ function Console() {
             </>
             
     );
-}
 
+}
 export default Console;

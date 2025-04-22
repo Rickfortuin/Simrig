@@ -27,12 +27,13 @@ function App() {
 
       {count === 1 && (
         <>
-        <Console/>
+        <Console page ={0}/>
         </>
       )}
 
       {count === 2 && (
         <>
+        <Console page={3}/>
         </>
       )}
     </>

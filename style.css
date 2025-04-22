@@ -7,8 +7,7 @@ html, body {
   background-attachment: fixed;
   position: relative;
   overflow: auto;
-  margin: 0; /* Verwijder standaard marges */
-  width: 100vw; /* Maak de breedte gelijk aan de viewport breedte */
+  margin: 0; /* Verwijder standaard marges */ /* Maak de breedte gelijk aan de viewport breedte */
    /* Maak de hoogte gelijk aan de viewport hoogte */
   color: #6F4E37;
 }
@@ -178,6 +177,7 @@ div.knoppen{
 div.Quicklink{
   background: rgb(128,128,128,0.7);
   width: auto;
+  min-height : 60vh;
   margin: 0%;
   button{
     font-family: "Bitter";

@@ -50,7 +50,16 @@ button.builder{
   border-radius: 50px;
   
 }
+button.image{
+  background-image: url("./images/Simrig-logo.jpg");
+  background-size: cover;
+  width : fit-content;
+
+  margin-left: 5%;
+  
+}
 div.navbar{
+  
   background-color: black;
   font-size: 30px ;
   max-height: 10%;
@@ -67,7 +76,6 @@ div.navbar{
     margin-top: 1%;
   }
   button.nav-option{
-    float: right;
     font-family: "Bitter";
     text-decoration: underline;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;

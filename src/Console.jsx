@@ -18,7 +18,7 @@ function Console() {
         <>
             { count2 === 0 &&(
                 <>
-                    <h1>Kies je console</h1>
+                    <h1 className='builderkop'>Kies je console</h1>
                     <div className='buttons'>
                         <button className={"playstation"} onClick={() =>{
                         setSelectedConsole("playstation");
@@ -27,7 +27,7 @@ function Console() {
                         <button className={"xbox"} onClick={() => {
                         setSelectedConsole("xbox");
                         countUp();
-                    }}>Xbox</button>
+                    }}>XBOX</button>
                         <button className={"pc"} onClick={() => {
                             setSelectedConsole("pc");
                             countUp();

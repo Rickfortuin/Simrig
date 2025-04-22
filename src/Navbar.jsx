@@ -8,14 +8,11 @@ function Navbar({ setCount }){
     <>
       <div className="navbar">
         <nav>
-            <img src={"./images/Simrig-logo.jpg"} />
+            <button className='image' src={"./images/Simrig-logo.jpg"} onClick={() => setCount(0)}/>
             <button className="nav-option" id="home" onClick={() => setCount(0)}>Home</button>
-            <button className="nav-option" id="builder" onClick={() => setCount(1)}>Builder</button>
-            <button className="nav-option" id="products" onClick={() => setCount(0)}>Products</button>
-            <button className="nav-option" id="list" onClick={() => setCount(0)}>Saved-Lists</button>
-            
-            
-            
+            <button className="nav-option" id="builder" onClick={() => setCount(1)}>Bouwen</button>
+            <button className="nav-option" id="products" onClick={() => setCount(0)}>Vergelijk</button>
+            <button className="nav-option" id="list" onClick={() => setCount(2)}>Lijst</button>
         </nav>
       </div>
     </>

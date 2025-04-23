@@ -1,0 +1,137 @@
+[   {
+    "title": "Logitech G920",
+    "price": "222",
+    "description":[],
+    "advantages": [
+        "Het stuur heeft een koppelingspendaal",
+        "Monteerbaar aan het bureau"
+    ],
+    "disadvantages": [
+        "Matige force feedback",
+        "Schakelpook moet je los kopen"
+    ],
+    "playstation": false,
+    "pc": true,
+    "xbox": true,
+    "imagehref": ["2122595.avif"],
+    "href": ["https://www.coolblue.nl/product/615041/logitech-g920-driving-force-racestuur-voor-xbox-series-x-s-xbox-one-pc.html"]
+},
+{
+    "title": "Logitech G29",
+    "price": "228",
+    "description":[],
+    "advantages": [
+        "Het stuur heeft een koppelingspendaal"
+    ],
+    "disadvantages": [
+        "Matige force feedback",
+        "Schakelpook moet je los kopen"
+    ],
+    "playstation": true,
+    "pc": true,
+    "xbox": false,
+    "imagehref": ["2122594.avif"],
+    "href": ["https://www.coolblue.nl/product/614870/logitech-g29-driving-force-racestuur-voor-playstation-5-playstation-4-pc.html"]
+    },
+    {
+        "title": "Moza R3 (3,9Nm) bundel",
+        "price": "329",
+        "description":[],
+        "advantages": [
+            "Uitstekende force feedback door direct drive"
+        ],
+        "disadvantages": [
+            "Geen koppelingspendaal en schakelpook"
+        ],
+        "playstation": false,
+        "pc": true,
+        "xbox": false,
+        "imagehref": ["R3-Bundle-for-PC-1.png"],
+        "href": ["https://mozaracing.com/product/r3-bundle-for-pc/"]
+    },
+   
+    
+    {
+        "title": "Thrustmaster T300 RS GT",
+        "price": "350",
+        "description":[],
+        "advantages": [
+            "Goede force feedback",
+            "Stuur is verwisselbaar (voor een F1 stuur)",
+            "Het stuur heeft een koppelingspendaal"
+        ],
+        "disadvantages": [
+            "Op pc moet je eerst software installeren als je dit stuur wilt gebruiken",
+            "schakelpook moet je los kopen"
+        ],
+        "playstation": true,
+        "pc": true,
+        "xbox": false,
+        "imagehref": ["1912866.avif"],
+        "href": ["https://www.coolblue.nl/product/747878/thrustmaster-t300-rs-gt.html"]
+    },
+    {
+        "title": "Moza R3 (3,9Nm) PC + XBOX bundel",
+        "price": "399",
+        "description":[],
+        "advantages": [
+            "Uitstekende force feedback door direct drive"
+        ],
+        "disadvantages": [
+            "Geen koppelingspendaal en schakelpook"
+        ],
+        "playstation": false,
+        "pc": true,
+        "xbox": true,
+        "imagehref": ["R3-Racing-Wheel-and-Pedals-1.avif"],
+        "href": ["https://mozaracing.com/product/r3-racing-wheel-and-pedals/"]
+    },
+    {
+        "title": "Fanatec CSL QR2 (5Nm) bundel",
+        "price": "400",
+        "description":[],
+        "advantages": [
+            "Uitstekende force feedback door direct drive"
+        ],
+        "disadvantages": [
+            "Geen koppelingspendaal en schakelpook"
+        ],
+        "playstation": false,
+        "pc": true,
+        "xbox": false,
+        "imagehref": ["csl-dd-qr2-ready2race-bundle-for-pc-5-nm-01.png"],
+        "href": ["https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_5nm_eu/csl-dd-qr2-ready2race-bundle-pc-5-nm-eu"]
+    },
+    {
+        "title": "Moza R5",
+        "price": "480",
+        "description":[],
+        "advantages": [
+            "Direct drive"
+        ],
+        "disadvantages": [
+            "Geen koppeling"
+        ],
+        "playstation": false,
+        "pc": true,
+        "xbox": false,
+        "imagehref": ["lQDPJxOZh9hUy9_NA-jNA-iwYbMrtj5TfdoGvhu53blJAQ_1000_1000.png"],
+        "href": ["https://mozaracing.com/product/r5-bundle/"]
+    },
+    {
+        "title": "Fanatec Gran turismo DD pro (5nm)",
+        "price": "700",
+        "description":[],
+        "advantages": [
+            "Direct drive"
+        ],
+        "disadvantages": [
+            "Geen koppeling"
+        ],
+        "playstation": true,
+        "pc": true,
+        "xbox": false,
+        "imagehref": ["GT_DD_RWP_PRO-01.png"],
+        "href": ["https://www.fanatec.com/eu/en/p/sim-racing-bundles/gt_dd_rwp_pro_eu/gran-turismo-dd-pro-5nm-eu"]
+    }
+]

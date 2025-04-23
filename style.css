@@ -10,6 +10,7 @@ html, body {
   margin: 0; /* Verwijder standaard marges */ /* Maak de breedte gelijk aan de viewport breedte */
    /* Maak de hoogte gelijk aan de viewport hoogte */
   color: #6F4E37;
+  min-width: fit-content;
 }
 
 main{
@@ -187,6 +188,11 @@ div.Quicklink{
   width: auto;
   min-height : 60vh;
   margin: 0%;
+  display: flexbox;
+  img{
+    height: 25vh;
+    width: fit-content;
+  }
   button{
     font-family: "Bitter";
     display: inline-block;
@@ -404,13 +410,23 @@ div.onderdeel{
     border-radius: 5%;
   }
 }
+div.knoppen{
+  display: flexbox;
+  justify-content: space-between;
+  width: 95%;
+  height: 20%;
+  font-size: 2rem;
+  margin-left: 0%;
+  margin-right: 0%;
+  min-block-size: fit-content;
+}
 button.Volgende{
   margin-top: 3%;
-  margin-left: 40%;
+  width: 20%;
 }
 button.Terug{
   margin-top: 3%;
-  margin-right: 40%;
+  width: 20%;
 }
 h1.builderkop{
   text-shadow: #000 1px 0, #000 0 1px, #000 -2px 0, #000 0 -1px;

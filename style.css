@@ -185,7 +185,7 @@ div.knoppen{
 }
 div.Quicklink{
   background: rgb(128,128,128,0.7);
-  width: auto;
+  width: 100%;
   min-height : 60vh;
   margin: 0%;
   display: flexbox;
@@ -200,6 +200,24 @@ div.Quicklink{
     height: 40px;
   }
 }
+.container {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: auto;
+  height: auto;
+  margin-top: 2%;
+}
+.knoppen {
+  margin-bottom: 0px;
+}
+div.list{
+  div.onderdeel{  margin-left: 0px;
+  margin-right: 0px;
+  width: auto;
+  margin-bottom: 2%;}
+  margin-top: 0%;
+}
+
 div.container{
   
   display: grid;
@@ -208,6 +226,7 @@ div.container{
   grid-template-rows: repeat(3, auto);  /* 3 rows with automatic height */
   gap:5%; /* Optional: Adds spacing between grid items */
   margin-bottom: 15%;
+  
   
 }
 button.playstation{

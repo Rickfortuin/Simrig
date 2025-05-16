@@ -15,7 +15,8 @@ const Seats = ({ name, page }) => {
         } else {
             filteredSteering = seats; // Include all items if name is empty
         }
-
+          // Sort by price in ascending order
+        filteredSteering.sort((a, b) => a.price - b.price);
         setFilteredData(filteredSteering);
     }, [name]); // Runs when `name` changes
 

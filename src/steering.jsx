@@ -35,7 +35,7 @@ const Steering = ({ name, page }) => {
         <h1 className="builderkop">Kies je stuur</h1>
         <div className="container">
       {filteredData.map((item) => (
-        <Quicklink key={item.title} name={item.title} price={item.price} href= {item.href}paragraph="" type="wheel" image= {item.imagehref} page = {page}/>
+        <Quicklink key={item.title} name={item.title} price={item.price} href= {item.href}paragraph={item.description} type="wheel" image= {item.imagehref} page = {page}/>
       ))}
         </div>
     </>
